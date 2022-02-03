@@ -5,6 +5,9 @@ import "./Page.css"
 
 const Page = () => {
     useEffect(() => {
+        document.title = "ElpeeCo."
+    },[])
+    useEffect(() => {
         new Granim({
             element: "#logo-canvas",
             direction: "diagonal",
