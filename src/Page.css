@@ -1,0 +1,96 @@
+html, body{
+    overflow: hidden;
+    align-items: center;
+    align-content: center;
+    height: 100%;
+    width: 100%;
+    background-size: contain;
+}
+
+.bloc-logo{
+    position: relative;
+    width: 100%;
+    height: 1000px;
+    background-size: contain;
+}
+
+
+.logo-mask{
+    position:absolute;
+    font-size: 32px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    display: flex;
+    justify-content: center;
+}
+
+.content{
+    margin-top: -300px;
+    position: absolute;
+    width: 600px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.content h1,h2{
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.content h1{
+    color: white;
+    font-size: 64px;
+}
+
+.content h2{
+    color: white;
+    font-size: 18px;
+}
+
+.contact{
+    height: 30px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    padding: 5px 10px 5px 10px;
+}
+
+.contact h2{
+    font-size: 15px;
+    margin: 0px;
+    text-align: center;
+    height: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.cta{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    margin-top: 20px;
+    margin-right: 20px;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    transition: opacity 0.4s ease-in-out;
+    border-radius: 50px;
+    border: 2px solid white;
+}
+
+.cta :hover{
+    opacity: 0.8;
+}
+
+
+#logo-canvas{
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
