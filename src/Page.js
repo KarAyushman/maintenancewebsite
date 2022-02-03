@@ -5,7 +5,7 @@ import "./Page.css"
 
 const Page = () => {
     useEffect(() => {
-        document.title = "ElpeeCo."
+        document.title = "ElpeeCo"
     },[])
     useEffect(() => {
         new Granim({
@@ -19,7 +19,7 @@ const Page = () => {
                         ["#184ABC", "#4BB2F2"],
                         ["#2156B2", "#152238"],
                     ],
-                    transitionSpeed: 5000, 
+                    transitionSpeed: 3000, 
                 }
             }
         })
